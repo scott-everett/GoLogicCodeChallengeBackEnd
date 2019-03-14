@@ -9,6 +9,18 @@ Problem Description
 Build a RESTFul API for a Address Book application.  Build the corresponding database and tables.  Each contact can have 0 to many corresponding addresses and phone numbers.  The solution is back-end only. 
 
 
+Dev Installation Instructions
+-----------------------------
+* Download the files from https://github.com/scott-everett/GoLogicCodeChallengeBackEnd and copy to the desired local install location.
+* Open the MyAddressBookAP\MyAddressBookAPI.sln file in Visual Studio (2017).
+* Open Web.config and change the "MyAddressBook" connection string to point to the desired SQL Server instance. 
+* Select Build / Rebuild Solution.
+* Open the Package Manager Console (Tools / Nuget Package Manager / Package Manager Console).
+* Type "Update-Database" and press enter.
+
+You can now run the API.
+
+
 Contacts API Documention
 ------------------------
 Format: JSON
